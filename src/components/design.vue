@@ -206,6 +206,7 @@
             container.nodeType === 3 && (container = container.parentNode)
             container.tagName.toLowerCase() === 'span' && (container = container.parentNode)
             Array.prototype.forEach.call(container.getElementsByTagName('span'), function (span) {
+              console.log('Testing FontSize', span.style.fontSize.trim())
               if (span.style.fontSize.trim() === '-webkit-xxx-large' || span.style.fontSize.trim() === 'xx-large' || span.style.fontSize.trim() === 'xxx-large') {
                 span.style.fontSize = value
               }
