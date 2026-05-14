@@ -4,7 +4,7 @@
   "description": "a wysiwyg editor based on Vue.js and Vuex",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hifarer/vueditor.git"
+    "url": "https://github.com/jayson-centeno/vueditor.git"
   },
   "main": "dist/script/vueditor.min.js",
   "scripts": {
@@ -58,6 +58,6 @@
     "wysiwyg editor",
     "vue.js wysiwyg editor"
   ],
-  "author": "hifarer",
+  "author": "jayson-centeno",
   "license": "MIT"
 }
